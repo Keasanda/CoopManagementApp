@@ -1,0 +1,47 @@
+﻿@page
+@model CoopManagementApp.Pages.Management.CreateContactsModel
+
+@{
+    ViewData["Title"] = "CreateContacts";
+}
+
+<h1>CreateContacts</h1>
+
+<h4>Contact</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Contact.PersonID" class="control-label"></label>
+                <select asp-for="Contact.PersonID" class ="form-control" asp-items="ViewBag.PersonID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contact.CompanyID" class="control-label"></label>
+                <select asp-for="Contact.CompanyID" class ="form-control" asp-items="ViewBag.CompanyID"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contact.Position" class="control-label"></label>
+                <input asp-for="Contact.Position" class="form-control" />
+                <span asp-validation-for="Contact.Position" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contact.TelephoneNumber" class="control-label"></label>
+                <input asp-for="Contact.TelephoneNumber" class="form-control" />
+                <span asp-validation-for="Contact.TelephoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

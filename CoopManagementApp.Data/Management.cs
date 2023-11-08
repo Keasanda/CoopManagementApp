@@ -9,6 +9,9 @@ namespace CoopManagementApp.Data
 
     public class Person
     {
+        public Company Company;
+        public Contact Contact;
+
         public int PersonID { get; set; }
         public string Name { get; set; }
         public string Surname { get; set; }
