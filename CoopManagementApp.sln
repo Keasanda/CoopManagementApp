@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoopManagementApp", "CoopManagementApp\CoopManagementApp.csproj", "{9737721C-3223-4458-8D0B-0DF5F1BB30C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoopManagementApp.Data", "CoopManagementApp.Data\CoopManagementApp.Data.csproj", "{6E2E9BE6-B1A8-4915-BB4C-E3348A8F9483}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9737721C-3223-4458-8D0B-0DF5F1BB30C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9737721C-3223-4458-8D0B-0DF5F1BB30C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9737721C-3223-4458-8D0B-0DF5F1BB30C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9737721C-3223-4458-8D0B-0DF5F1BB30C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E2E9BE6-B1A8-4915-BB4C-E3348A8F9483}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E2E9BE6-B1A8-4915-BB4C-E3348A8F9483}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E2E9BE6-B1A8-4915-BB4C-E3348A8F9483}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E2E9BE6-B1A8-4915-BB4C-E3348A8F9483}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CC1BD2B-9BCD-4325-9C3E-90FCD3DEF929}
+	EndGlobalSection
+EndGlobal
